@@ -1,0 +1,34 @@
+.carousel {
+    max-width: 100%;
+    margin: 0 auto; 
+}
+
+.carousel-inner {
+    max-height: 400px; 
+    overflow: hidden; 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+#parrafo1, #parrafo2 {
+    margin-bottom: 1rem;
+}
+
+.btn-custom {
+    width: 100%; 
+    padding: 1rem; 
+    font-size: 1.25rem; 
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.btn-container .btn {
+    margin-bottom: 1rem; 
+}
